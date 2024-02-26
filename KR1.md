@@ -514,7 +514,7 @@ UNION ALL
 SELECT 'Ослы' AS тип_животного, имя, команда, дата\_рождения FROM Ослы;
 </details>
 
-13. , 14. , 15. - [-= Перейти к коду Java =-](https://github.com/Terekhov-A-S/Final_control_work_on_the_specialization_block/tree/main/Java)
+13. , 14. , 15. - [-= Перейти к коду Java =-](https://github.com/Pavel86rr/ICR/tree/main/Java)
 
 
 
