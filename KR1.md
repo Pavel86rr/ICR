@@ -244,7 +244,7 @@ sudo dpkg -r sl
 7.
 
  CREATE DATABASE Друзья_человека;
-![Screenshot14](https://github.com/Pavel86rr/ICR/blob/main/14.png)
+![Screenshot13](https://github.com/Pavel86rr/ICR/blob/main/13.png)
 
 
 8.
