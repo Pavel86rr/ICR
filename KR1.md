@@ -69,6 +69,8 @@ cat Animals
 
 mv "Animals" "Друзья человека"
 </details>
+![Screenshot1](https://github.com/Pavel86rr/ICR/blob/main/1%20.png)
+
 
 2.
 <details>
@@ -98,6 +100,7 @@ cat Animals
 mv "Animals" "Друзья человека"
 
 </details>
+![Screenshot2](https://github.com/Pavel86rr/ICR/blob/main/2.png)
 
 3.
 
@@ -112,6 +115,9 @@ sudo apt install mysql-server
 
 sudo service mysql status
 </details>
+![Screenshot3](https://github.com/Pavel86rr/ICR/blob/main/3.png)
+![Screenshot4](https://github.com/Pavel86rr/ICR/blob/main/4.png)
+![Screenshot6](https://github.com/Pavel86rr/ICR/blob/main/6.png)
 
 4.
 
@@ -119,12 +125,15 @@ sudo service mysql status
 <summary> Команды Bash [Развернуть/Свернуть]</summary>
 
 
-wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl\_5.02-1\_amd64.deb
+wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl_5.02-1_amd64.deb
 
-sudo dpkg -i sl\_5.02-1\_amd64.deb
+sudo dpkg -i sl_5.02-1_amd64.deb
 
 sudo dpkg -r sl
 </details>
+![Screenshot8](https://github.com/Pavel86rr/ICR/blob/main/8.png)
+![Screenshot9](https://github.com/Pavel86rr/ICR/blob/main/9.png)
+
 
 5.
 
@@ -149,39 +158,39 @@ sudo dpkg -r sl
 
 `  `738  clear
 
-`  `739  mkdir folder\_for\_attestation && mv "Друзья человека" /attestation/folder\_for\_attestation 
+`  `739  mkdir folder_for_attestation && mv "Друзья человека" /attestation/folder_for_attestation 
 
 `  `740  ls
 
-`  `741  rmdir folder\_for\_attestation/
+`  `741  rmdir folder_for_attestation/
 
 `  `742  ls
 
 `  `743  clear
 
-`  `744  mkdir folder\_for\_attestation
+`  `744  mkdir folder_for_attestation
 
-`  `745  mv "Друзья человека" /attestation/folder\_for\_attestation
+`  `745  mv "Друзья человека" /attestation/folder_for_attestation
 
-`  `746  mv "Друзья человека" attestation/folder\_for\_attestation
+`  `746  mv "Друзья человека" attestation/folder_for_attestation
 
 `  `747  ls
 
-`  `748  mkdir folder\_for\_attestation
+`  `748  mkdir folder_for_attestation
 
-`  `749  rmdir folder\_for\_attestation
+`  `749  rmdir folder_for_attestation
 
 `  `750  clear
 
-`  `751  mkdir folder\_for\_attestation
+`  `751  mkdir folder_for_attestation
 
-`  `752  mv 'Друзья человека' attestation/folder\_for\_attestation/
+`  `752  mv 'Друзья человека' attestation/folder_for_attestation/
 
-`  `753  mv 'Друзья человека' folder\_for\_attestation/
+`  `753  mv 'Друзья человека' folder_for_attestation/
 
 `  `754  ls
 
-`  `755  cd folder\_for\_attestation/
+`  `755  cd folder_for_attestation/
 
 `  `756  ls
 
@@ -211,9 +220,9 @@ sudo dpkg -r sl
 
 `  `769  clear
 
-`  `770  wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl\_5.02-1\_amd64.deb
+`  `770  wget http://ftp.us.debian.org/debian/pool/main/s/sl/sl_5.02-1_amd64.deb
 
-`  `771  sudo dpkg -i sl\_5.02-1\_amd64.deb
+`  `771  sudo dpkg -i sl_5.02-1_amd64.deb
 
 `  `772  sudo dpkg -r sl
 
@@ -222,7 +231,10 @@ sudo dpkg -r sl
 `  `774  history
 
 </details>
+![Screenshot11](https://github.com/Pavel86rr/ICR/blob/main/11.png)
+
 6.
+![Screenshot12](https://github.com/Pavel86rr/ICR/blob/main/12.png)
 
 
 
@@ -231,8 +243,8 @@ sudo dpkg -r sl
 
 7.
 
- CREATE DATABASE Друзья\_человека;
-
+ CREATE DATABASE Друзья_человека;
+![Screenshot14](https://github.com/Pavel86rr/ICR/blob/main/14.png)
 
 
 8.
@@ -241,22 +253,22 @@ sudo dpkg -r sl
 <summary> SQL запросы [Развернуть/Свернуть]</summary>
 
 
-CREATE TABLE Родительский\_класс (
+CREATE TABLE Родительский_класс (
 
-`  `id INT PRIMARY KEY AUTO\_INCREMENT,
+`  `id INT PRIMARY KEY AUTO_INCREMENT,
 
 `  `тип VARCHAR(50)
 
 );
 
 
-CREATE TABLE Домашние\_животные (
+CREATE TABLE Домашние_животные (
 
 `  `id INT PRIMARY KEY,
 
 `  `вид VARCHAR(50),
 
-`  `FOREIGN KEY (id) REFERENCES Родительский\_класс(id)
+`  `FOREIGN KEY (id) REFERENCES Родительский_класс(id)
 
 );
 
@@ -269,9 +281,9 @@ CREATE TABLE Собаки (
 
 `  `команда VARCHAR(50),
 
-`  `дата\_рождения DATE,
+`  `дата_рождения DATE,
 
-`  `FOREIGN KEY (id) REFERENCES Домашние\_животные(id)
+`  `FOREIGN KEY (id) REFERENCES Домашние_животные(id)
 
 );
 
@@ -284,9 +296,9 @@ CREATE TABLE Кошки (
 
 `  `команда VARCHAR(50),
 
-`  `дата\_рождения DATE,
+`  `дата_рождения DATE,
 
-`  `FOREIGN KEY (id) REFERENCES Домашние\_животные(id)
+`  `FOREIGN KEY (id) REFERENCES Домашние_животные(id)
 
 );
 
@@ -299,20 +311,20 @@ CREATE TABLE Хомяки (
 
 `  `команда VARCHAR(50),
 
-`  `дата\_рождения DATE,
+`  `дата_рождения DATE,
 
-`  `FOREIGN KEY (id) REFERENCES Домашние\_животные(id)
+`  `FOREIGN KEY (id) REFERENCES Домашние_животные(id)
 
 );
 
 
-CREATE TABLE Вьючные\_животные (
+CREATE TABLE Вьючные_животные (
 
 `  `id INT PRIMARY KEY,
 
 `  `вид VARCHAR(50),
 
-`  `FOREIGN KEY (id) REFERENCES Родительский\_класс(id)
+`  `FOREIGN KEY (id) REFERENCES Родительский_класс(id)
 
 );
 
@@ -325,9 +337,9 @@ CREATE TABLE Лошади (
 
 `  `команда VARCHAR(50),
 
-`  `дата\_рождения DATE,
+`  `дата_рождения DATE,
 
-`  `FOREIGN KEY (id) REFERENCES Вьючные\_животные(id)
+`  `FOREIGN KEY (id) REFERENCES Вьючные_животные(id)
 
 );
 
@@ -340,9 +352,9 @@ CREATE TABLE Верблюды (
 
 `  `команда VARCHAR(50),
 
-`  `дата\_рождения DATE,
+`  `дата_рождения DATE,
 
-`  `FOREIGN KEY (id) REFERENCES Вьючные\_животные(id)
+`  `FOREIGN KEY (id) REFERENCES Вьючные_животные(id)
 
 );
 
@@ -355,9 +367,9 @@ CREATE TABLE Ослы (
 
 `  `команда VARCHAR(50),
 
-`  `дата\_рождения DATE,
+`  `дата_рождения DATE,
 
-`  `FOREIGN KEY (id) REFERENCES Вьючные\_животные(id)
+`  `FOREIGN KEY (id) REFERENCES Вьючные_животные(id)
 
 );
 
@@ -366,7 +378,7 @@ show databases;
 show tables;
 
 </details>
-
+![Screenshot15](https://github.com/Pavel86rr/ICR/blob/main/15.png)
 
 
 9
